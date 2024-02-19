@@ -17,9 +17,6 @@ Dieses Repository dient als Ressource für den Informatikunterricht in der Einf�
 - Einführung in die Gestaltung von Webseiten mit CSS
 - Beispiele für CSS-Styling
 
-   ```bash
-   https://github.com/SuperiorPRV/School-E2.git
-
 ## Mitwirkende
 - [Ömer Aydin]
 
