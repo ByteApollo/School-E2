@@ -39,25 +39,19 @@ public class Schulnoten {
         int h;
         int j;
         int i;
-        for ( i = 0; i < 16; i++) {
+        System.out.println("-----------------");
+        System.out.println("|Schüler | Noten|");
+        System.out.println("-----------------");
+        for ( i = 0; i <= 15; i++) {
             h = 0;
             for (j = 0; j < noten.length; j++) {
                 if (noten[j] == i) {
                     h++;
                 }
             }
-            if (h == 1) {
-                if (i == 1) {
-                    System.out.println(h + " person hatte "+ i +" notenpunkt");
-                } else {
-                    System.out.println(h + " person hatte "+ i +" notenpunkte");
-                }
-            } else if (h > 1) {
-                if (i == 1) {
-                    System.out.println(h + " personen hatten "+ i +" notenpunkt");
-                } else {
-                    System.out.println(h + " personen hatten "+ i +" notenpunkte");
-                }
+            if (h > 0) {
+                // System.out.printf("%-10s%-10s%-10s\n","|"+ h, "|" , i+"|");
+                System.out.printf("|  %2d  |  %3d   |\n", h, i);
             }
         }
     }
@@ -69,5 +63,4 @@ public class Schulnoten {
         sn.notendurchschnitt();
         sn.notenspiegel();
     }
-
 }
