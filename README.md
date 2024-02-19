@@ -1,4 +1,4 @@
-# Informatik Einführungsphase 2 Repository
+# Informatik Einführungsphase 2 
 
 ## Beschreibung
 Dieses Repository dient als Ressource für den Informatikunterricht in der Einführungsphase 2. Hier findest du Beispiele, Übungen und Ressourcen, die dir bei der Vertiefung deiner Kenntnisse in Java, HTML und CSS helfen sollen.
